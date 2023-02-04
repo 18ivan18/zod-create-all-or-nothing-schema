@@ -1,0 +1,26 @@
+{
+  "include": ["./define-all-or-nothing-schema.ts"],
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "target": "es2021",
+    "sourceMap": false,
+    "lib": ["es2017"],
+    "removeComments": false,
+    "composite": true,
+    "incremental": true,
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib/cjs",
+    "declarationDir": "./lib/typedefs/"
+  },
+}
